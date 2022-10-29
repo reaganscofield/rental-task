@@ -38,6 +38,9 @@ $ pip3 install -r requirements.txt
 $ python3 manage.py test rental
 ```
 
+<img width="681" alt="Screenshot 2022-10-29 at 13 10 39" src="https://user-images.githubusercontent.com/29593266/198829843-85d020db-7ed1-4d33-bf90-3f6873ca510e.png">
+
+
 - Run project
 ```
 $ python3 manage.py runserver 8080
