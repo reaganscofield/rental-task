@@ -1,3 +1,6 @@
+<img width="820" alt="Screenshot 2022-10-29 at 13 09 45" src="https://user-images.githubusercontent.com/29593266/198829748-7ebde03f-2fc6-47a7-849b-d5810a4aef47.png">
+
+
 # TEST TASK - Python Django Engineer - Remote
 
 Running Application 
