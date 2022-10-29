@@ -1,0 +1,30 @@
+
+{% block content %}
+<div style="text-align: center; padding-top: 70px">
+  <div style="">
+<h1>Reservations</h1>
+<table align="center" border="1" style="border-collapse: collapse; margin-top: 15px; margin-bottom: 35px; text-align: center;">
+  <thead>
+    <tr>
+      <th>Rental_name</th>
+      <th>ID</th>
+      <th>Checkin</th>
+      <th>Checkout</th>
+      <th>Previous Reservation ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for reservation in reservations %}
+      <tr>
+        <td>{{ reservation.rental_id }}</td>
+        <td>{{ reservation }}</td>
+        <td>{{ reservation.checkin|date:'Y-m-d' }}</td>
+        <td>{{ reservation.checkout|date:'Y-m-d' }}</td>
+        <td>{{ reservation.find_previous_reservation }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+</div>
+{% endblock content %}
