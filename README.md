@@ -8,7 +8,7 @@ Running Application
 you will need python3 installed on your machine and pip3 installed in order to run this project
 
 
-- Clone the repository 
+- Clone repository
 ```
 $  git clone git@github.com:reaganscofield/rental-task.git
 ```
